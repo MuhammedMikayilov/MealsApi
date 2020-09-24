@@ -1,0 +1,76 @@
+#meals{
+    padding: 100px 0;
+    height: 100vh;
+    background-image: url("../imgs/food.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    max-height: 100vh;
+
+    &::after{
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #00000063;
+    }
+
+    .main{
+        z-index: 999999;
+        max-height: 500px;
+    }
+
+   .Ressepts{
+       background-color: #a54d4dbf;
+       padding: 30px;
+       border-radius: 8px;
+       width: 100%;
+       max-height: 600px;
+       overflow-y: auto;
+    //    list-style: none;
+
+    // li{margin-left: 15px;}
+
+    .display{
+        max-height: 300px;
+        overflow-y: auto;
+
+        // p{margin-left: 20px;}
+    } 
+
+    .avatar{
+        max-height: 250px;
+        max-width: 300px;
+    }
+    .links{
+        color: white;
+        text-transform: capitalize;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+       .resepts{
+        z-index: 999999;
+        padding: 15px;
+        max-height: 150px;
+        overflow-y: auto;
+        border: 1px solid #ffffff;
+        border-radius: 8px;
+    }
+   }
+   
+
+    input{z-index: 9000;}
+
+
+    
+    .display{
+        color: white;
+        cursor: text;
+        text-align: center;
+    }
+
+}

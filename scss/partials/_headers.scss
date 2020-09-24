@@ -1,0 +1,25 @@
+header{
+
+    img{
+        max-width: 48%;
+        height: auto;
+        margin-left: 30px;
+    }
+
+    .icons{
+        color: #ffffff;
+        font-size: 16px;
+        i{
+            cursor: pointer;
+            font-size: 25px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        // .navbars{
+        //     display: inline-block;
+        //     padding: 5px;
+        //     border: 1px solid #ffffff;
+        // }
+    }
+}
